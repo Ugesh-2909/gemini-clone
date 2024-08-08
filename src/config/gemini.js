@@ -8,8 +8,8 @@ import {
   HarmCategory,
   HarmBlockThreshold
 } from "@google/generative-ai";
-
-const apiKey = "AIzaSyD6S7ZHf5xQkb25I21p_ILVkEvJmUqZanI";
+// i have disabled my apikey for privacy reasons you can put your gemini api key below
+const apiKey = please enter your api key here ;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
